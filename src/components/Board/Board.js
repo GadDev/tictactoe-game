@@ -8,7 +8,7 @@ const Board = ({ cellValues, cellClicked, winningCombo }) => {
 
   const cells = cellValues.map((cell, i) => {
     const highlightCell = winningCombo && winningCombo.indexOf(i) >= 0;
-    console.log(highlightCell);
+
     return (
       <Cell
         key={i}
