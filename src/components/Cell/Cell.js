@@ -2,10 +2,10 @@ import './Cell.css';
 
 import cn from 'classnames';
 
-const Cell = ({ value = '', isWinner = false, clicked }) => {
+const Cell = ({ value = '', canHighlight, clicked }) => {
   const cellWrapper = cn({
     cell: true,
-    winner: isWinner,
+    winner: canHighlight,
   });
   const cellClass = cn({ 'cell-content': true, populated: value });
 
