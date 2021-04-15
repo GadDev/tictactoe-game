@@ -7,7 +7,7 @@ import Game from './components/Game';
 function App() {
   return (
     <Fragment>
-      hello
+      he
       <Game />
     </Fragment>
   );
