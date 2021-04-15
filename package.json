@@ -52,9 +52,6 @@
     "*.{js,jsx,ts,tsx}": [
       "eslint --quiet --fix"
     ],
-    "*.{spec,test}.{js,jsx,ts,tsx}": [
-      "yarn test:lint-staged"
-    ],
     "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write"
   }
 }
