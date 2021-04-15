@@ -1,7 +1,12 @@
 import './Modal.css';
-const Modal = () => {
+
+import cn from 'classnames';
+const Modal = ({ isGameOver }) => {
+  const modalClasses = cn({
+    open: isGameOver,
+  });
   return (
-    <div id="modal-overlay">
+    <div id="modal-overlay" className={modalClasses}>
       <div id="game-result-modal">
         <div id="result-container">
           <div id="winner-container">

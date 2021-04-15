@@ -25,7 +25,7 @@ const Game = () => {
         <h1>Tic Tac Toe</h1>
         <Board cellValues={cellValues} cellClicked={onCellClicked} />
       </div>
-      <Modal />
+      <Modal isGameOver={true} />
     </Fragment>
   );
 };
