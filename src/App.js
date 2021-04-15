@@ -1,5 +1,3 @@
-import './App.css';
-
 import { Fragment } from 'react';
 
 import Game from './components/Game';
