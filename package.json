@@ -53,7 +53,7 @@
       "eslint --quiet --fix"
     ],
     "*.{spec,test}.{js,jsx,ts,tsx}": [
-      "npm run test:lint-staged"
+      "yarn test:lint-staged"
     ],
     "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write"
   }
