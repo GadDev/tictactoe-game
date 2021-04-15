@@ -2,40 +2,14 @@ import './Game.css';
 
 import { Fragment } from 'react';
 
+import Board from '../Board';
+
 const Game = () => {
   return (
     <Fragment>
       <div id="game">
         <h1>Tic Tac Toe</h1>
-        <div id="board">
-          <button className="cell">
-            <span className="cell-content"></span>
-          </button>
-          <button className="cell">
-            <span className="cell-content"></span>
-          </button>
-          <button className="cell">
-            <span className="cell-content"></span>
-          </button>
-          <button className="cell">
-            <span className="cell-content"></span>
-          </button>
-          <button className="cell">
-            <span className="cell-content"></span>
-          </button>
-          <button className="cell">
-            <span className="cell-content"></span>
-          </button>
-          <button className="cell">
-            <span className="cell-content"></span>
-          </button>
-          <button className="cell">
-            <span className="cell-content"></span>
-          </button>
-          <button className="cell">
-            <span className="cell-content"></span>
-          </button>
-        </div>
+        <Board />
       </div>
 
       <div id="modal-overlay">
