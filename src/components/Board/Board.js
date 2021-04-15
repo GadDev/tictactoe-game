@@ -1,34 +1,10 @@
 import './Board.css';
+
+import Cell from '../Cell';
 const Board = () => {
   return (
     <div id="board">
-      <button className="cell">
-        <span className="cell-content"></span>
-      </button>
-      <button className="cell">
-        <span className="cell-content"></span>
-      </button>
-      <button className="cell">
-        <span className="cell-content"></span>
-      </button>
-      <button className="cell">
-        <span className="cell-content"></span>
-      </button>
-      <button className="cell">
-        <span className="cell-content"></span>
-      </button>
-      <button className="cell">
-        <span className="cell-content"></span>
-      </button>
-      <button className="cell">
-        <span className="cell-content"></span>
-      </button>
-      <button className="cell">
-        <span className="cell-content"></span>
-      </button>
-      <button className="cell">
-        <span className="cell-content"></span>
-      </button>
+      <Cell />
     </div>
   );
 };
