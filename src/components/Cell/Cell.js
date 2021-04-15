@@ -1,8 +1,16 @@
 import './Cell.css';
-const Cell = ({ value = '' }) => {
-  let cellClass = 'cell-content';
+
+import cn from 'classnames';
+
+const Cell = ({ value = '', isWinner = false }) => {
+  const cellWrapper = cn({
+    cell: true,
+    winner: isWinner,
+  });
+  const cellClass = cn({ 'cell-content': true, populated: value });
+
   return (
-    <button className="cell">
+    <button className={cellWrapper}>
       <span className={cellClass}>{value}</span>
     </button>
   );
