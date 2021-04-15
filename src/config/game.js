@@ -42,3 +42,12 @@ export const resultMatrix = {
     [0, 4],
   ],
 };
+
+export const initialState = {
+  cellValues: [...Array(9)],
+  isPlayerTwoNext: false,
+  isGameOver: false,
+  numberTurnsLeft: 9,
+  winner: null,
+  winningCombo: [],
+};

@@ -1,4 +1,4 @@
-import { resultMatrix } from '../config/board';
+import { resultMatrix } from '../config/game';
 
 const result = (hasResult, winner, winningCombo) => {
   return {
